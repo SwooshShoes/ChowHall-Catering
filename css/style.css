@@ -1,5 +1,30 @@
 
 nav {
-background: white;
-box-shadow: 10px 5px 5px red; 
+background: #218464;
+box-shadow: 0px 0px 20px 14px rgb(45 90 200); 
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
 }
+
+nav .logo img {
+	max-width: 280px;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding:0;
+ display: flex;
+ gap: 2 rem;
+
+}
+.button {
+	padding:0.5rem 1rem;
+	background: #29B08F;
+	border-radius: 12px;
+	text-decoration: none;
+	color:#000;
+}
+
