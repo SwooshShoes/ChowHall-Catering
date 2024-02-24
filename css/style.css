@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Just+Me+Again+Down+Here&display=swap')
 
+body{
+	font-family: "Julius Sans One", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;}
+
+*{
+	padding: 3px;
+	border:1rem teal;
+	margin: 3px;
+}
 nav {
 background: #218464;
 box-shadow: 0px 0px 20px 14px rgb(45 90 200); 
 display:flex;
 justify-content: space-between;
 align-items: center;
-padding: 1rem 2rem;
+padding: 1rem 5rem;
 }
 
 nav .logo img {
@@ -17,14 +28,50 @@ nav ul {
  margin: 0;
  padding:0;
  display: flex;
- gap: 2 rem;
+ gap: 1rem;
 
+}
+
+nav ul li a {
+	text text-decoration:none;
+	font-size:30px;
+	color:#000082;
+	font-style: none;
 }
 .button {
 	padding:0.5rem 1rem;
 	background: #29B08F;
 	border-radius: 12px;
 	text-decoration: none;
-	color:#000;
+  font-weight: 400;
+  font-family: font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+	color:#D2EB47;
+	border: 2rem;
 }
+
+header p {
+	front-size:40px;
+	margin-top:0;
+	margin-bottom:4rem;
+	margin-left:auto;
+	margin-right:auto;
+} 
+
+header {
+	background: ;
+	padding: 6rem 2rem;
+	text-align: center;
+
+}
+
+h1 {
+	font-family:"Julius Sans One", sans-serif;
+	font-size: 80px;
+	padding: 1rem;
+	background: darkolivegreen;
+	margin: 2rem;
+} 
+
 
