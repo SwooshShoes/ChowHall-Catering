@@ -3,7 +3,8 @@
 body{
 	font-family: "Julius Sans One", sans-serif;
   	font-weight: 400;
-  	font-style: normal;}
+  	font-style: normal;
+  }
 
 *{
 	padding: 3px;
@@ -13,6 +14,8 @@ body{
 nav {
 background: #218464;
 box-shadow: 0px 0px 20px 14px rgb(45 90 200); 
+font-size:20px;
+font-family: "julius sans-serif"sans-serif;
 display:flex;
 justify-content: space-between;
 align-items: center;
@@ -39,20 +42,20 @@ nav ul li a {
 	font-style: none;
 }
 .button {
-	padding:0.5rem 1rem;
+	border: 2rem;
+	padding:2rem 2rem;
 	background: #29B08F;
 	border-radius: 12px;
 	text-decoration: none;
   font-weight: 400;
-  font-family: font-family: "Just Me Again Down Here", cursive;
-  font-weight: 400;
+  font-family:"Just Me Again Down Here", cursive;
+  font-size: 50px;
   font-style: normal;
 	color:#D2EB47;
-	border: 2rem;
 }
 
 header p {
-	front-size:40px;
+	front-size:100px;
 	margin-top:0;
 	margin-bottom:4rem;
 	margin-left:auto;
@@ -60,18 +63,63 @@ header p {
 } 
 
 header {
-	background: ;
+	background:#29B08F;
+	background-image: url("../images/BG.jpeg");
+	background-repeat:none;
 	padding: 6rem 2rem;
 	text-align: center;
-
+	color:white;
 }
 
 h1 {
 	font-family:"Julius Sans One", sans-serif;
 	font-size: 80px;
+	color:#D2EA4E;
 	padding: 1rem;
-	background: darkolivegreen;
+	background: none;
 	margin: 2rem;
 } 
+h2{
+	font-family:"julius sans-serif,"sans-serif;
+	font-size: 60px;
+	color:#D2EA4E;
+	padding: 1rem;
+	margin: 2rem;
+	text-align: center;
+}
+p{
+	font-family:"julius sans-serif;"sans-serif;
+	font-size: 75px;
+	color:#29B08F;
+	paddding:1rem;
+	background:none;
+	margin: 2rem;
+	text-align: center;
+}
+
+section{
+	padding: 3rem;
+	text-align: center;
+}
+
+iframe{
+	width:100%;
+	height: 350px;
+}
+
+table{
+	border:1px solid #D2EA36;
+	text-align: center;
+}
+
+table td {
+	border: 3px solid #000082;
+	padding: 10px;
+	text-align: center;
+}
 
 
+footer form input{
+	border: 3px solid #333;
+	text-align: center;
+}
